@@ -10,4 +10,4 @@ chmod 755 /var/log/${SERVICE}
 
 # delopy
 cp cron/* /etc/cron.d/
-cp logrotate/rpi-monitor /etc/logrotate.d/
+cp logrotate/* /etc/logrotate.d/

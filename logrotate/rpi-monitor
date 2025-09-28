@@ -1,7 +1,8 @@
-/var/log/rpi-monitor/cron.log {
-    daily
-    rotate 30
+/var/log/rpi-monitor/reboot.log {
+    monthly
+    rotate 3
     compress
+    delaycompress
     missingok
     notifempty
     create 644 root root
