@@ -1,0 +1,8 @@
+/var/log/rpi-monitor/cron.log {
+    daily
+    rotate 30
+    compress
+    missingok
+    notifempty
+    create 644 root root
+}
